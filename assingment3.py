@@ -36,3 +36,9 @@ my_newfile = open("words2.txt", 'r',encoding='utf-8')
 hebtxt = my_newfile.read()
 print(hebtxt)
 my_newfile.close()
+
+###EXTRA???###
+###EXTRA###
+from PIL import Image
+img = Image.new('RGB', (800,1280), (255, 255, 255))
+img.save("image.png", "PNG")
